@@ -14,4 +14,4 @@ hours++;
 }
 document.getElementById("display").innerHTML=hours+":"+minutes+":"+seconds;
 }
-window.setInterval(stopwatch,10)
+window.setInterval(stopwatch,1 )

@@ -31,6 +31,9 @@ else{
 }
 }
 function reset(){
+    seconds=0;
+    minutes=0;
+    hours=0;
     document.getElementById("display").innerHTML="00:00:00";
     document.getElementById("startstop").innerHTML="start";
 }
